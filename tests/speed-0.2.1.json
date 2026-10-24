@@ -1,0 +1,35 @@
+{
+  "version": "0.2.1",
+  "node": "v22.23.2",
+  "cpu": "AMD Ryzen 5 5500                               ",
+  "position": "initial",
+  "depth": 14,
+  "rootNnue": false,
+  "coldTT": true,
+  "samples": [
+    {
+      "nodes": 2207591,
+      "score": 1,
+      "m0": 393,
+      "m1": 0,
+      "time": 371.9598,
+      "nps": 5935026
+    },
+    {
+      "nodes": 2207591,
+      "score": 1,
+      "m0": 393,
+      "m1": 0,
+      "time": 369.6753000000001,
+      "nps": 5971703
+    },
+    {
+      "nodes": 2207591,
+      "score": 1,
+      "m0": 393,
+      "m1": 0,
+      "time": 376.30489999999986,
+      "nps": 5866495
+    }
+  ]
+}

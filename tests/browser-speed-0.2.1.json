@@ -1,0 +1,28 @@
+{
+  "version": "0.2.1",
+  "budgetMs": 800,
+  "position": "initial",
+  "environment": "Chrome headless, offline file, 390x844 viewport on desktop CPU; not physical phone",
+  "results": [
+    {
+      "engine": "damka",
+      "depth": 14,
+      "nodes": 3823616,
+      "time": 800.5,
+      "nps": 4776535,
+      "neuralCalls": 0,
+      "reductions": 0,
+      "researches": 0
+    },
+    {
+      "engine": "marcher-ru",
+      "depth": 14,
+      "nodes": 4429824,
+      "time": 800.3999999985099,
+      "nps": 5534513,
+      "neuralCalls": 7,
+      "reductions": 221090,
+      "researches": 3984
+    }
+  ]
+}

@@ -22,5 +22,5 @@ for(let pair=0;pair<pairs;pair++){
  }
 }
 delete globalThis.__marcherOrdering;
-const report={version:'0.2.0',budgetMs:budget,pairs,seed:82731,depthLimit:32,notes:'Same process and wall-clock budget, five-piece tables, TT cleared each turn as in the shared game Worker. Small sample; no Elo claim.',stats:stats.map(s=>({...s,nps:Math.round(s.nodes/s.time*1000),averageDepth:s.depth/s.searches})),games};
+const report={version:JSON.parse(readFileSync(new URL('package.json',import.meta.url))).version,budgetMs:budget,pairs,seed:82731,depthLimit:32,notes:'Same process and wall-clock budget, five-piece tables, TT cleared each turn as in the shared game Worker. Small sample; no Elo claim.',stats:stats.map(s=>({...s,nps:Math.round(s.nodes/s.time*1000),averageDepth:s.depth/s.searches})),games};
 console.log(JSON.stringify(report,null,2));if(process.env.REPORT)writeFileSync(process.env.REPORT,JSON.stringify(report,null,2)+'\n');

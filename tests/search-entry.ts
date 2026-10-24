@@ -6,3 +6,5 @@ export {applyMove} from '../vendor/damka/src/engine/apply.ts';
 export {generate} from '../vendor/damka/src/engine/movegen.ts';
 export {status} from '../vendor/damka/src/engine/status.ts';
 export {toSquare64} from '../vendor/damka/src/engine/bitboard.ts';
+export {evaluate,evaluateMen} from '../vendor/damka/src/engine/eval.ts';
+export {createRng,randomPlacement} from '../vendor/damka/src/engine/random.ts';
