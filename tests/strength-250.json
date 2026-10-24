@@ -1,0 +1,117 @@
+{
+  "version": "0.2.0",
+  "budgetMs": 250,
+  "pairs": 3,
+  "seed": 82731,
+  "depthLimit": 32,
+  "notes": "Same process and wall-clock budget, five-piece tables, TT cleared each turn as in the shared game Worker. Small sample; no Elo claim.",
+  "stats": [
+    {
+      "engine": "marcher-ru",
+      "wins": 2,
+      "draws": 3,
+      "losses": 1,
+      "nodes": 152383969,
+      "time": 38371.57659999997,
+      "depth": 3548,
+      "searches": 223,
+      "nps": 3971272,
+      "averageDepth": 15.910313901345292
+    },
+    {
+      "engine": "damka",
+      "nodes": 167792958,
+      "time": 39798.84520000009,
+      "depth": 3610,
+      "searches": 222,
+      "nps": 4216026,
+      "averageDepth": 16.26126126126126
+    }
+  ],
+  "games": [
+    {
+      "pair": 0,
+      "marcherColor": "white",
+      "result": "draws",
+      "plies": 87,
+      "reason": "threefold repetition",
+      "start": {
+        "white": 4095,
+        "black": -1048576,
+        "kings": 0,
+        "side": 0,
+        "plies": 0
+      }
+    },
+    {
+      "pair": 0,
+      "marcherColor": "black",
+      "result": "draws",
+      "plies": 109,
+      "reason": "threefold repetition",
+      "start": {
+        "white": 4095,
+        "black": -1048576,
+        "kings": 0,
+        "side": 0,
+        "plies": 0
+      }
+    },
+    {
+      "pair": 1,
+      "marcherColor": "white",
+      "result": "wins",
+      "plies": 63,
+      "reason": "rules",
+      "start": {
+        "white": 3327,
+        "black": -35651072,
+        "kings": 0,
+        "side": 0,
+        "plies": 0
+      }
+    },
+    {
+      "pair": 1,
+      "marcherColor": "black",
+      "result": "draws",
+      "plies": 64,
+      "reason": "threefold repetition",
+      "start": {
+        "white": 3327,
+        "black": -35651072,
+        "kings": 0,
+        "side": 0,
+        "plies": 0
+      }
+    },
+    {
+      "pair": 2,
+      "marcherColor": "white",
+      "result": "wins",
+      "plies": 61,
+      "reason": "rules",
+      "start": {
+        "white": 28031,
+        "black": -6811648,
+        "kings": 0,
+        "side": 0,
+        "plies": 0
+      }
+    },
+    {
+      "pair": 2,
+      "marcherColor": "black",
+      "result": "losses",
+      "plies": 61,
+      "reason": "rules",
+      "start": {
+        "white": 28031,
+        "black": -6811648,
+        "kings": 0,
+        "side": 0,
+        "plies": 0
+      }
+    }
+  ]
+}

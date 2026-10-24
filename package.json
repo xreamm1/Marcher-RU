@@ -1,13 +1,14 @@
 {
   "name": "marcher-ru",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Experimental Russian draughts: Marcher NNUE, Damka search and rules, five-piece tablebases, browser Web Worker.",
   "type": "module",
   "license": "MIT",
   "scripts": {
     "build": "node build.mjs",
-    "test": "node test-rules.cjs",
+    "test": "node test-rules.cjs && node test-search.mjs",
+    "bench": "node bench.mjs",
     "serve": "node serve.mjs"
   },
   "devDependencies": {

@@ -1,0 +1,61 @@
+{
+  "version": "0.2.0",
+  "budgetMs": 800,
+  "pairs": 1,
+  "seed": 82731,
+  "depthLimit": 32,
+  "notes": "Same process and wall-clock budget, five-piece tables, TT cleared each turn as in the shared game Worker. Small sample; no Elo claim.",
+  "stats": [
+    {
+      "engine": "marcher-ru",
+      "wins": 1,
+      "draws": 1,
+      "losses": 0,
+      "nodes": 129072056,
+      "time": 29743.329700000042,
+      "depth": 1854,
+      "searches": 92,
+      "nps": 4339529,
+      "averageDepth": 20.152173913043477
+    },
+    {
+      "engine": "damka",
+      "nodes": 137817499,
+      "time": 30438.4869,
+      "depth": 1900,
+      "searches": 91,
+      "nps": 4527738,
+      "averageDepth": 20.87912087912088
+    }
+  ],
+  "games": [
+    {
+      "pair": 0,
+      "marcherColor": "white",
+      "result": "wins",
+      "plies": 55,
+      "reason": "rules",
+      "start": {
+        "white": 4095,
+        "black": -1048576,
+        "kings": 0,
+        "side": 0,
+        "plies": 0
+      }
+    },
+    {
+      "pair": 0,
+      "marcherColor": "black",
+      "result": "draws",
+      "plies": 128,
+      "reason": "threefold repetition",
+      "start": {
+        "white": 4095,
+        "black": -1048576,
+        "kings": 0,
+        "side": 0,
+        "plies": 0
+      }
+    }
+  ]
+}
